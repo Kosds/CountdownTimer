@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myTheme" parent="@android:style/Theme.Material.Light.NoActionBar.Fullscreen">
+        <item name="android:textColor">#ECF0F1</item>
+        <item name="android:buttonStyle">@style/myThemeButton</item>
+    </style>
+    <style name="myThemeButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+    </style>
+</resources>
